@@ -1,3 +1,0 @@
-syntax = "proto3";
-package gRPC_Calculator;
-option go_package = "github.com/1eanq/gRPC_Calculator/proto";

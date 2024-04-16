@@ -1,0 +1,12 @@
+syntax = "proto3";
+package gRPC_Calculator;
+option go_package = "github.com/1eanq/gRPC_Calculator/proto";
+
+message ExpressionRequest {
+  int64 id = 1;
+  string expression = 2;
+}
+
+message ExpressionResponse {
+  fixed64 result = 1;
+}
